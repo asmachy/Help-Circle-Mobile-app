@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "811306954379",
+    "firebase_url": "https://helpcircle-5a0bf.firebaseio.com",
+    "project_id": "helpcircle-5a0bf",
+    "storage_bucket": "helpcircle-5a0bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811306954379:android:d6c5843334e39285",
+        "android_client_info": {
+          "package_name": "com.example.protik.helpcircle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811306954379-n6b8nc6a5qc9dpidhpfoq1s1q8d7usfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.protik.helpcircle",
+            "certificate_hash": "329f7505318f77674289714eb753b8cc466e3058"
+          }
+        },
+        {
+          "client_id": "811306954379-e82kllbg7hqhprcneg4jhle2lkbn518i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3UIvMAD-29nZQDyy37DLiqOHffR14ib8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811306954379-e82kllbg7hqhprcneg4jhle2lkbn518i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

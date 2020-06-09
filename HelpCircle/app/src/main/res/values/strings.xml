@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Help Circle</string>
+    <string name="Open">DemoApplication</string>
+    <string name="Close">DemoApplication</string>
+    <string name="about_details">Help Circle enables user to make a friend circle of his own choice. He can get help from the friend circle and also provide help to them in case of emergency by tracing their location.</string>
+</resources>

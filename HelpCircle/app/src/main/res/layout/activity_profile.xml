@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ash_background"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/user" />
+
+    <ImageView
+        android:id="@+id/editText"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/mobile_no"
+        android:layout_alignTop="@+id/imageView"
+        android:background="@drawable/pencil" />
+
+    <TextView
+        android:id="@+id/my_name"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="300dp"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/mobile_no"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="370dp"
+        android:background="#e2e6e3"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/call"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/call_icon" />
+    <TextView
+        android:id="@+id/email_no"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="430dp"
+        android:background="#e2e6e3"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textStyle="normal" />
+    <ImageView
+        android:id="@+id/mail"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/ic_mail_black_24dp" />
+
+    <Button
+        android:id="@+id/addBtnId"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="500dp"
+        android:text="add friend"/>
+
+    <Button
+        android:id="@+id/declineBtnId"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="500dp"
+        android:text="Decline"/>
+
+
+</RelativeLayout>
