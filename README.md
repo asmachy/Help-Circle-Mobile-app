@@ -1,6 +1,9 @@
 # Help-Circle-Mobile-app
 Help Circle
-Min Sdk Version 21 Target Sdk Version 28 Version Name "1.0"
+
+Min Sdk Version 21 
+
+Target Sdk Version 28 Version Name "1.0"
 
 # Technology used
 Java
