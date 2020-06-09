@@ -6,8 +6,7 @@ Min Sdk Version 21
 Target Sdk Version 28 Version Name "1.0"
 
 # Technology used
-Java
-Firebase
+Java, Firebase
 
 # App Function
 To send emergency help request, click on "Need Help" button.
